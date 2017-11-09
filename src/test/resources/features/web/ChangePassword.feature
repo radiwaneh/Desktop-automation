@@ -54,5 +54,5 @@ Feature: Change Password and edit personal profile
       | dj-ram2010@hotmail.com | ram1101994 | abcdefg  | changepasswordErrorMessage |
       | dj-ram2010@hotmail.com | ram1101994 | ()*^#)@  | changepasswordErrorMessage |
       | dj-ram2010@hotmail.com | ram1101994 | ابتثجحخ  | changepasswordErrorMessage |
-      | dj-ram2010@hotmail.com | ram1101994 | Empty  | changepasswordErrorMessage |
+     
 
