@@ -1,0 +1,13 @@
+Index: src/test/resources/features/web/ChangePassword.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/test/resources/features/web/ChangePassword.feature	(revision )
++++ src/test/resources/features/web/ChangePassword.feature	(revision )
+@@ -54,4 +54,5 @@
+       | dj-ram2010@hotmail.com | ram1101994 | abcdefg  | changepasswordErrorMessage |
+       | dj-ram2010@hotmail.com | ram1101994 | ()*^#)@  | changepasswordErrorMessage |
+       | dj-ram2010@hotmail.com | ram1101994 | ابتثجحخ  | changepasswordErrorMessage |
++      | dj-ram2010@hotmail.com | ram1101994 | Empty  | changepasswordErrorMessage |
+ 
